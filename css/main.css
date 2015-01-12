@@ -32,7 +32,7 @@ html {
 }
 
 .icon-two {
-	width: 80px;
+	width: 70px;
 	padding: 10px;
 	display: inline-block;
 	vertical-align: middle;
@@ -61,6 +61,17 @@ html {
 
 .poster-info {
 	text-align: center;
+	color: #fff;
 
 }
 
+.list {
+	text-align: left;
+}
+
+.hat-cuffs {
+	background-image: url(../images/cowboy-hat.svg), url(../images/hand-cuffs.svg);
+	background-position: top, bottom;
+	background-repeat: no-repeat;
+	background-size: 100px 100px, 80px 80px;
+}
