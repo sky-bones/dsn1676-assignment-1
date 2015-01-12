@@ -27,11 +27,15 @@ html {
 }
 
 .icons {
-width: 100px;
+	width: 100px;
+	display: inline-block;
 }
 
 .icon-two {
-	width: 60px;
+	width: 80px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .dark-brown {
@@ -39,11 +43,24 @@ width: 100px;
 }
 
 .masthead {
+	background: transparent url("../images/masthead-bg.png") repeat left center;
+	text-align: center;
 
 }
 
+.title {
+	text-shadow: 2px 2px 0 #BFBFBE;
+	background-color: #E7E5D9;
+	display: inline-block;
+}
+
 .border {
-	border-image: url("../images/image-border.png") 20 20 20 20 stretch stretch;
-	border-width: 20px 20px 20px 20px;
+	border-image: url("../images/image-border.png") 29 29 29 29 stretch stretch;
+	border-width: 29px 29px 29px 29px;
+}
+
+.poster-info {
+	text-align: center;
+
 }
 
