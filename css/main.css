@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	background-color: #E7E5D9;
+
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+	img {
+    display: block;
+    width: 100%;
+}
+
+.icons {
+width: 100px;
+}
+
+.icon-two {
+	width: 60px;
+}
+
+.dark-brown {
+	background-color: #87714F;
+}
+
+.masthead {
+
+}
+
+.border {
+	border-image: url("../images/image-border.png") 20 20 20 20 stretch stretch;
+	border-width: 20px 20px 20px 20px;
+}
+
