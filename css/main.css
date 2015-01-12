@@ -26,12 +26,7 @@ html {
     width: 100%;
 }
 
-.icons {
-	width: 100px;
-	display: inline-block;
-}
-
-.icon-two {
+.icon {
 	width: 70px;
 	padding: 10px;
 	display: inline-block;
@@ -62,7 +57,6 @@ html {
 .poster-info {
 	text-align: center;
 	color: #fff;
-
 }
 
 .list {
